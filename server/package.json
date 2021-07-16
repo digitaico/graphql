@@ -7,11 +7,15 @@
     "start": "nodemon src/index"
   },
   "dependencies": {
+    "apollo-datasource-rest": "^3.0.0",
     "apollo-server": "2.19.1",
     "graphql": "15.4.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
     "dotenv": "^8.2.0",
+    "eslint": "^7.30.0",
     "nodemon": "^2.0.4"
   },
   "author": "Raphael Terrier @R4ph-t",
